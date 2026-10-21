@@ -15,6 +15,7 @@ Every step has:
 | 02 | Code formatting with Prettier | [docs/02-prettier.md](./docs/02-prettier.md) |
 | 03 | Express server | [docs/03-express-server.md](./docs/03-express-server.md) |
 | 04 | Dev tooling: nodemon and morgan | [docs/04-dev-tooling.md](./docs/04-dev-tooling.md) |
+| 05 | Auth module: routes and controller | [docs/05-auth-module.md](./docs/05-auth-module.md) |
 
 ## Follow along
 

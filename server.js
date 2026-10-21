@@ -2,6 +2,8 @@ import 'colors'
 import 'dotenv/config'
 import express from 'express'
 
+import authRoutes from './app/auth/auth.routes.js'
+
 const app = express()
 
 async function main() {
@@ -22,6 +24,8 @@ async function main() {
 	app.get('/', (req, res) => {
 		res.json({ message: 'API is running' })
 	})
+
+	app.use('/api/auth', authRoutes)
 
 	app.listen(PORT, () => {
 		console.log(
