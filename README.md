@@ -13,6 +13,7 @@ Every step has:
 |----|------|-----|
 | 01 | Project setup | [docs/01-project-setup.md](./docs/01-project-setup.md) |
 | 02 | Code formatting with Prettier | [docs/02-prettier.md](./docs/02-prettier.md) |
+| 03 | Express server | [docs/03-express-server.md](./docs/03-express-server.md) |
 
 ## Follow along
 
