@@ -1,0 +1,14 @@
+{
+	"name": "learn-workout-course",
+	"version": "1.0.0",
+	"description": "Workout tracking API built step by step with Express and Prisma",
+	"main": "server.js",
+	"type": "module",
+	"keywords": [
+		"workout",
+		"express",
+		"prisma"
+	],
+	"author": "gzalinski",
+	"license": "ISC"
+}
