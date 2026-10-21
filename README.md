@@ -12,6 +12,7 @@ Every step has:
 | #  | Step | Doc |
 |----|------|-----|
 | 01 | Project setup | [docs/01-project-setup.md](./docs/01-project-setup.md) |
+| 02 | Code formatting with Prettier | [docs/02-prettier.md](./docs/02-prettier.md) |
 
 ## Follow along
 
