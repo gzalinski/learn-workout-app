@@ -12,6 +12,11 @@ async function main() {
 		process.exit(1)
 	}
 
+	if (process.env.NODE_ENV === 'development') {
+		const { default: morgan } = await import('morgan')
+		app.use(morgan('dev'))
+	}
+
 	app.use(express.json())
 
 	app.get('/', (req, res) => {
